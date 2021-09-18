@@ -19,10 +19,7 @@ DerivedData
 !default.perspectivev3
 
 ## Other
-*.xccheckout
 *.moved-aside
-*.xcuserstate
-*.xcscmblueprint
 
 ## Obj-C/Swift specific
 *.hmap

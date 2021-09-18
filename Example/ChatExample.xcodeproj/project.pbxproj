@@ -12,7 +12,6 @@
 		1C5433DD24C389C300A5383B /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5433DC24C389C300A5383B /* MessagesView.swift */; };
 		1C5433DF24C38DBF00A5383B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C5433DE24C38DBF00A5383B /* SwiftUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		1C5433E224C3A33600A5383B /* SwiftUIExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5433E124C3A33600A5383B /* SwiftUIExampleView.swift */; };
-		27DC886026F5CD58006ABF27 /* MessageKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 27DC885E26F5CD58006ABF27 /* MessageKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27DC88B726F5CD82006ABF27 /* LinkPreviewMessageSizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DC886626F5CD81006ABF27 /* LinkPreviewMessageSizeCalculator.swift */; };
 		27DC88B826F5CD82006ABF27 /* CellSizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DC886726F5CD81006ABF27 /* CellSizeCalculator.swift */; };
 		27DC88B926F5CD82006ABF27 /* MessagesCollectionViewLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DC886826F5CD81006ABF27 /* MessagesCollectionViewLayoutAttributes.swift */; };
@@ -156,7 +155,6 @@
 		1C5433DE24C38DBF00A5383B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		1C5433E124C3A33600A5383B /* SwiftUIExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExampleView.swift; sourceTree = "<group>"; };
 		27DC885C26F5CD58006ABF27 /* MessageKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MessageKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		27DC885E26F5CD58006ABF27 /* MessageKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageKit.h; sourceTree = "<group>"; };
 		27DC885F26F5CD58006ABF27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27DC886626F5CD81006ABF27 /* LinkPreviewMessageSizeCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkPreviewMessageSizeCalculator.swift; sourceTree = "<group>"; };
 		27DC886726F5CD81006ABF27 /* CellSizeCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellSizeCalculator.swift; sourceTree = "<group>"; };
@@ -322,7 +320,6 @@
 			isa = PBXGroup;
 			children = (
 				27DC886426F5CD81006ABF27 /* Sources */,
-				27DC885E26F5CD58006ABF27 /* MessageKit.h */,
 				27DC885F26F5CD58006ABF27 /* Info.plist */,
 			);
 			path = MessageKit;
@@ -653,7 +650,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27DC886026F5CD58006ABF27 /* MessageKit.h in Headers */,
 				27DC88DA26F5CD82006ABF27 /* MessageKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
