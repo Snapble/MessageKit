@@ -47,7 +47,7 @@
 		27DC88D726F5CD82006ABF27 /* MessageKind+textMessageKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DC888826F5CD81006ABF27 /* MessageKind+textMessageKind.swift */; };
 		27DC88D826F5CD82006ABF27 /* CGRect+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DC888926F5CD81006ABF27 /* CGRect+Extensions.swift */; };
 		27DC88D926F5CD82006ABF27 /* MessageInputBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DC888B26F5CD81006ABF27 /* MessageInputBar.swift */; };
-		27DC88DA26F5CD82006ABF27 /* MessageKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 27DC888C26F5CD81006ABF27 /* MessageKit.h */; };
+		27DC88DA26F5CD82006ABF27 /* MessageKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 27DC888C26F5CD81006ABF27 /* MessageKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27DC88DB26F5CD82006ABF27 /* MessageKit+Availability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DC888D26F5CD81006ABF27 /* MessageKit+Availability.swift */; };
 		27DC88DD26F5CD82006ABF27 /* MessagesViewController+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DC889026F5CD81006ABF27 /* MessagesViewController+Keyboard.swift */; };
 		27DC88DE26F5CD82006ABF27 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DC889126F5CD81006ABF27 /* MessagesViewController.swift */; };
@@ -86,6 +86,7 @@
 		27DC88FF26F5CD82006ABF27 /* MessagesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DC88B626F5CD81006ABF27 /* MessagesDataSource.swift */; };
 		27DC890326F5CE1E006ABF27 /* InputBarAccessoryView in Frameworks */ = {isa = PBXBuildFile; productRef = 27DC890226F5CE1E006ABF27 /* InputBarAccessoryView */; };
 		27DC890826F5D034006ABF27 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 27DC890726F5D034006ABF27 /* Kingfisher */; };
+		27DC890B26F5D46A006ABF27 /* MessageKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DC885C26F5CD58006ABF27 /* MessageKit.framework */; };
 		383B9EB32172A1C4008AB91A /* MockUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B9EB22172A1C4008AB91A /* MockUser.swift */; };
 		385C2922211FF32E0010B4BA /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385C2920211FF32E0010B4BA /* CustomCell.swift */; };
 		385C2923211FF32E0010B4BA /* TableViewCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385C2921211FF32E0010B4BA /* TableViewCells.swift */; };
@@ -124,13 +125,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		27DC890426F5CF4B006ABF27 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 882B5E2B1CF7D4B900B6E160 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 27DC885B26F5CD58006ABF27;
-			remoteInfo = MessageKit;
-		};
 		882B5E4A1CF7D4B900B6E160 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 882B5E2B1CF7D4B900B6E160 /* Project object */;
@@ -284,6 +278,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27DC890B26F5D46A006ABF27 /* MessageKit.framework in Frameworks */,
 				27DC890826F5D034006ABF27 /* Kingfisher in Frameworks */,
 				1C5433DF24C38DBF00A5383B /* SwiftUI.framework in Frameworks */,
 			);
@@ -690,7 +685,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				27DC890526F5CF4B006ABF27 /* PBXTargetDependency */,
 			);
 			name = ChatExample;
 			packageProductDependencies = (
@@ -977,11 +971,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		27DC890526F5CF4B006ABF27 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 27DC885B26F5CD58006ABF27 /* MessageKit */;
-			targetProxy = 27DC890426F5CF4B006ABF27 /* PBXContainerItemProxy */;
-		};
 		882B5E4B1CF7D4B900B6E160 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 882B5E321CF7D4B900B6E160 /* ChatExample */;

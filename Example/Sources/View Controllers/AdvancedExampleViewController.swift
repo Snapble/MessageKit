@@ -37,7 +37,7 @@ final class AdvancedExampleViewController: ChatViewController {
         messagesCollectionView.register(CustomCell.self)
         super.viewDidLoad()
         
-        updateTitleView(title: "MessageKit", subtitle: "2 Online")
+        updateTitleView(title: "Snapble", subtitle: "2 Online")
     }
     
     override func viewDidAppear(_ animated: Bool) {
